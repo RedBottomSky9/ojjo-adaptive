@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="./css/style.css">
+    
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Serif:wght@700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+    
+
+    <title>Document</title>
+</head>
+<body>
+    
+    <header class="header" id="header">
+
+        <div class="container">
+
+            <div class="menu_header">
+
+                <div class="menu-btn">
+        
+                    <span></span>
+                    <span></span>
+                    <span></span>
+        
+                </div>
+        
+            </div>
+        
+            <div class="menu">
+        
+                <nav>
+        
+                   <ul>
+        
+                    <li ><a href="#">Контрагентам</a></li>
+        
+                    <li><a href="#">Дизайнерам</a></li>
+        
+                    <li><a href="#">Вакансии</a></li>
+        
+                    <li><input type="text" class="menu_input" placeholder="Поиск"><button>Найти</button></li>
+                   
+                    <li><a href="">Вход/Регистрация</a></li>
+                    
+                    <li><img src="./image/human_head.svg" alt="a"></li>
+        
+                    <li><img src="./image/like_head.svg" alt="a" class="like_menu"></li>
+        
+                </nav>
+            </div>
+
+            <div class="header_nav">
+
+                <div class="header_nav_left">
+
+                    <ul>
+                        <li> <a href="">Контрагентам</a> </li>
+                        <li> <a href="">Дизайнерам</a> </li>
+                        <li> <a href="">Вакансии</a> </li>
+                    </ul>
+
+                </div>
+
+                <div class="header_nav_logo">
+
+                    <a href=""><img src="./image/ojjo_logo.svg" alt=""></a>
+
+                </div>
+
+                    <div class="header_nav_right">
+
+                        <button class="search open-button" onclick="openForm()"><img src="./image/find.svg" alt="" class="search_icon"> Поиск </button>
+
+                        <div class="form-popup" id="myForm">
+                            <form action="../action_page.php" class="form-container">
+                            
+                        
+                                <button class="find_btn"><img src="./image/find.svg" alt=""></button>
+                            
+                                <input type="text" >
+                        
+                                <button type="button" class="btn cancel" onclick="closeForm()">x</button>
+                            
+                            </form>
+                        </div>
+
+                        <a href="" class="login">Вход/Регистрация</a>
+
+                        <a href=""><img src="./image/human_head.svg" alt="" class="human"></a>
+
+                        <a href=""><img src="./image/like_head.svg" alt="" class="like"></a>
+
+                    </div>
+
+            </div>
+
+            <div class="header_main">
+
+                <div class="header_main_title">
+
+                    <h2>Долго, дорого, богато!</h2>
+
+                </div>
+
+                <div class="header_main_btn">
+
+                    <button>каталог изделий </button>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <div class="header_hr"></div>
+
+        <div class="header_bottom">
+
+            <div class="container">
+
+                <div class="header_bottom_logo">
+
+                    <a href=""><img src="./image/logo_jewerly.svg" alt=""></a>
+                    <div class="header_bottom_hr after_last"></div>
+                    <a href=""><img class="after_last" src="./image/logo_jewerly.svg" alt=""></a>
+                    <div class="header_bottom_hr prepelast_a"></div>
+                    <a href="" class="prepelast_a"><img src="./image/logo_jewerly.svg" alt=""></a>
+                    <div class="header_bottom_hr prepelast_a"></div>
+                    <a href="" class="prepelast_a"><img src="./image/logo_jewerly.svg" alt=""></a>
+                    <div class="header_bottom_hr prelast_a"></div>
+                    <a class="prelast_a" href=""><img src="./image/logo_jewerly.svg" alt=""></a>
+                    <div class="header_bottom_hr last_a"></div>
+                    <a class="last_a" href=""><img src="./image/logo_jewerly.svg" alt=""></a>
+
+                </div>
+
+            </div>
+            
+        </div>
+
+    </header>
+
+    <main class="here">
+
+        <div class="container">
+
+            <div class="here_title">
+
+                <div class="here_title_upper">
+
+                    <p>К мероприятиям</p>
+
+                </div>
+
+                <div class="here_title_under">
+
+                    <h3>Настоящая красота здесь!</h3>
+
+                </div>
+
+            </div>
+
+            <div class="here_nav">
+
+                <div class="here_nav_box">
+
+                    <button>Свадьба</button>
+
+                    <div class="here_nav_box_back"></div>
+
+                </div>
+
+                <div class="here_nav_box">
+
+                    <button>МУЖУ</button>
+
+                    <div class="here_nav_box_back"></div>
+
+                </div>
+
+                <div class="here_nav_box">
+
+                    <button>жене</button>
+
+                    <div class="here_nav_box_back"></div>
+
+                </div>
+
+                <div class="here_nav_box">
+
+                    <button>партнеру</button>
+
+                    <div class="here_nav_box_back"></div>
+
+                </div>
+
+                <div class="here_nav_box">
+
+                    <button>коллекции</button>
+
+                    <div class="here_nav_box_back"></div>
+
+                </div>
+
+                <div class="here_nav_box">
+
+                    <button>редкость</button>
+
+                    <div class="here_nav_box_back"></div>
+
+                </div>
+
+            </div>
+
+            <div class="here_wall">
+
+                <div class="here_wall_upper">
+
+                  <a href=""><div class="here_wall_box-1 qube">
+
+                        <p>Кольца</p>
+
+                    </div></a> 
+
+                    <a href=""> <div class="here_wall_box-2 qube">
+
+                        <p>серьги</p>
+
+                    </div></a> 
+
+                    <a href=""><div class="here_wall_box-3 qube">
+
+                        <p>подвески</p>
+
+                    </div></a> 
+
+                </div>
+
+                <div class="here_wall_under">
+
+                    <a href=""> <div class="here_wall_box-1 qube">
+
+                        <p>запонки</p>
+
+                    </div></a> 
+
+                    <a href=""> <div class="here_wall_box-2 qube">
+
+                        <p>браслеты</p>
+
+                    </div></a> 
+
+                    <a href=""> <div class="here_wall_box-3 qube">
+
+                        <p>часы</p>
+
+                    </div></a> 
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <main class="moscow">
+
+        <div class="container">
+
+            <div class="moscow_uppertitle">
+
+                <p>Не знаете, что выбрать?</p>
+
+            </div>
+
+            <div class="moscow_title">
+
+                <h3>Посетите наши салоны в Москве</h3>
+                
+            </div>
+
+            <div class="moscow_subtitle">
+
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut duis tortor vitae pellentesque egestas quam pulvinar. Pellentesque porttitor velit sit pellentesque. Suspendisse donec pretium id dignissim. Dignissim ultrices eget orci viverra. Egestas quis et ut ultrices imperdiet lectus nulla tempus. Pharetra lorem sem purus nisi libero viverra ipsum.</p>
+
+            </div>
+
+            <div class="moscow_button">
+
+                <button>наши салоны</button>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <main class="gift">
+
+        <div class="container">
+
+            <div class="gift_title">
+
+                <div class="gift_title_upper">
+
+                    <p>Полезные статьи</p>
+
+                </div>
+
+                <div class="gift_title_under">
+
+                    <h3>Лучшие советы по подбору дорогих подарков</h3>
+
+                </div>
+
+            </div>
+        
+            <div class="gift_main">
+
+                <a href=""><div class="gift_main_box-1 gift_box">
+
+                    <p>Как выбрать <br>
+                        часы для своей <br>
+                        будущей жены</p>
+
+                </div></a>
+
+                <a href=""> <div class="gift_main_box-2 gift_box">
+
+                    <p>Запонки для мужа: <br>
+                        7 ключевых правил<br>
+                        покупки аксессуара</p>
+
+                </div></a>
+
+                <a href=""><div class="gift_main_box-3 gift_box">
+
+                    <p>Как выбрать<br>
+                        обручальные кольца<br>
+                        молодоженам</p>
+
+                </div></a>
+                
+            </div>
+
+            <div class="gift_button">
+
+                <button>читать наш блог</button>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <main class="media">
+
+        <div class="container">
+
+            <div class="media_title">
+
+                <div class="media_title_upper">
+
+                    <p>#ojjo_jewerly</p>
+
+                </div>
+
+                <div class="media_title_under">
+
+                    <h3>Мы в социальных сетях</h3>
+
+                </div>
+
+            </div>
+
+            <div class="media_boxes">
+
+                <div class="media_boxes_left">
+
+                    <div class="media_boxes_upper">
+
+                       <a href=""> <img src="./image/gallery__video--hover.png" alt=""></a>
+
+                    </div>
+
+                    <div class="media_boxes_under">
+
+                        <img src="./image/gallery__image-1.png" alt="">
+                        <img src="./image/gallery__image-3.png" alt="">
+
+                    </div>
+
+                </div>
+
+                <div class="media_boxes_right">
+
+                    <div class="media_boxes_upper">
+
+                        <img src="./image/gallery__image.png" alt="">
+                        <img src="./image/gallery__image-2.png" alt="">
+                        
+
+                    </div>
+
+                    <div class="media_boxes_under">
+
+                        <a href=""><img src="./image/gallery__video.png" alt=""></a> 
+
+                    </div>
+
+                </div>
+                
+            </div>
+
+        </div>
+        
+    </main>
+
+    <main class="mail">
+
+        <div class="container">
+
+            <div class="mail_title">
+
+                <div class="mail_title_upper">
+
+                    <p>Полезные советы и персональный предложения</p>
+
+                </div>
+
+                <div class="mail_title_under">
+
+                    <h3>Эксклюзивная рассылка</h3>
+
+                </div>
+
+            </div>
+
+            <div class="mail_form">
+
+                <div class="mail_form_left">
+
+                    <ul>
+
+                        <li><img src="./image/subscribe__icon.svg" alt="">Личный менеджер</li>
+                        <li><img src="./image/subscribe__icon.svg" alt="">Доставка и оформление</li>
+                        <li><img src="./image/subscribe__icon.svg" alt="">Индивидуальный дизайн</li>
+
+                    </ul>
+
+                </div>
+
+                <div class="mail_form_right">
+
+                    <div class="mail_form_right_box">
+
+                        <input type="email" placeholder="Ваш e-mail">
+                        <button>отправить</button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </main>
+
+    <div class="footer">
+
+        <div class="container">
+
+            <div class="footer_upper">
+
+                <div class="footer_upper_links">
+
+                    <div class="footer_upper_title">
+
+                        <p>Полезные ссылки</p>
+
+                        <div class="footer_upper_hr"></div>
+
+                    </div>
+
+                    <div class="footer_upper_links_main">
+
+                        <ul>
+                            <li><a href="">Доставка</a></li>
+                            <li><a href="">Оплата </a></li>
+                            <li><a href="">Акции</a></li>
+                            <li><a href="">Политика конфиденциальности</a></li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div class="footer_upper_pay">
+
+                    <div class="footer_upper_title">
+
+                        <p>оплата</p>
+
+                        <div class="footer_upper_hr"></div>
+                        
+                    </div>
+
+                    <div class="footer_upper_pay_main">
+
+                        <p>Lorem ipsum dolor sit amet, <br>
+                            consectetur adipiscing elit. Ullamcorper <br>
+                            justo, nec, pellentesque.</p>
+
+                    </div>
+
+                    <div class="footer_upper_pay_under">
+
+                        <img src="./image/Rectangle 13.svg" alt="">
+                        <img src="./image/Rectangle 14.svg" alt="">
+
+                    </div>
+
+                </div>
+
+                <div class="footer_upper_contacts">
+
+                    <div class="footer_upper_title">
+
+                        <p>контакты</p>
+
+                        <div class="footer_upper_hr"></div>
+                        
+                    </div>
+
+                    <div class="footer_upper_contacts_main">
+
+                        <ul>
+                            <li><img src="./image/entypo_old-phone.svg" alt="">8 (812) 234-56-55</li>
+                            <li><img src="./image/entypo_old-phone.svg" alt="">8 (812) 234-56-55</li>
+                            <li><img src="./image/entypo_mail.svg" alt="">ojjo@ojjo.ru</li>
+                        </ul>
+
+                    </div>
+
+                </div>
+
+                <div class="footer_upper_social">
+
+                    <div class="footer_upper_title">
+
+                        <p>социальные сети</p>
+
+                        <div class="footer_upper_hr"></div>
+                        
+                    </div>
+
+                    <div class="footer_upper_social_main">
+
+                        <p>Lorem ipsum dolor sit amet, <br>
+                            consectetur adipiscing elit. Ullamcorper <br>
+                            justo, nec, pellentesque.</p>
+
+                    </div>
+
+                    <div class="footer_upper_social_logo">
+
+                        <img src="./image/carbon_logo-youtube.svg" alt="">
+                        <img src="./image/entypo-social_vk.svg" alt="">
+                        <img src="./image/bx_bxl-facebook.svg" alt="">
+                        <img src="./image/bx_bxl-telegram.svg" alt="">
+                        <img src="./image/simple-icons_etsy.svg" alt="">
+
+                    </div>
+
+                </div>
+
+            </div>
+
+            <div class="footer_hr"></div>
+
+            <div class="footer_under">
+
+                <p>(c) 2020 OJJO jewelry</p>
+                <a href=""><p>Договор публичной офферты</p></a>
+                <a href=""><p>Контрагентам</p></a>
+                <a href=""><p class="figma_footer">Сделано Figma.info</p></a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <script>
+
+let menuBtn = document.querySelector('.menu-btn');
+let menu = document.querySelector('.menu');
+menuBtn.addEventListener('click', function(){
+	menuBtn.classList.toggle('active');
+	menu.classList.toggle('active');
+})
+
+        function openForm() {
+          document.getElementById("myForm").style.display = "block";
+          document.querySelector('.open-button').style.display ="none";
+        }
+        
+        function closeForm() {
+
+          document.getElementById("myForm").style.display = "none";
+          document.querySelector('.open-button').style.display ="flex";
+        }
+
+    </script>
+
+</body>
+</html>
